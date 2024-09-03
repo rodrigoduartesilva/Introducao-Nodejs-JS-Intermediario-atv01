@@ -1,3 +1,6 @@
+const prompt = require('prompt-sync')();
+const { Usuario } = require("../classes/Usuario.js");
+
 function informarDadosDoUsuario() {
     let nome;
     let anoDeNascimento;
