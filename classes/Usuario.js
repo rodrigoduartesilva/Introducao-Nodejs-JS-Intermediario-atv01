@@ -10,7 +10,7 @@ class Usuario extends Pessoa {
             this.sexo = sexo,
             this.nacionalidade = nacionalidade,
             this.email = email,
-            this.semja = senha
+            this.senha = senha
     }
 
     idadeEstimada = () => {
