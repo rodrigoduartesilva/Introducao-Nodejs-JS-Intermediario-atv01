@@ -1,5 +1,6 @@
 const verificarEntradaDeTexto = require("./verificarEntradaDeTexto");
 
+// Função chamada para tratar exceções para o formato de texto
 function tratarExcecaoDeTexto(valor) {
     try {
         if (!verificarEntradaDeTexto(valor)) {

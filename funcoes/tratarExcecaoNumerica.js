@@ -1,5 +1,6 @@
 const verificarEntradaNumerica = require("./verificarEntradaNumerica");
 
+// Função chamada para tratar exceções para o formato numérico
 function tratarExcecaoNumerica(valor) {
     try {
         if (!verificarEntradaNumerica(valor)) {

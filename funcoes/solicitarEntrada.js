@@ -1,5 +1,6 @@
 const prompt = require('prompt-sync')();
 
+// Função chamada para a inserção de dados dentro da aplicação
 function solicitarEntrada(mensagem, tratarExcecao, verificarEntrada) {
     let valor;
 

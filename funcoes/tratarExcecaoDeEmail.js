@@ -1,6 +1,6 @@
 const verificarEntradaDeEmail = require("./verificarEntradaDeEmail");
 
-
+// Função chamada para tratar exceções para o formato de email
 function tratarExcecaoDeEmail(valor) {
     try {
         if (!verificarEntradaDeEmail(valor)) {

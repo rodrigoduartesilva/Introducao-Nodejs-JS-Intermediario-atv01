@@ -1,3 +1,4 @@
+// Função chamada para exibir um menu interativo para o usuário
 function exibirMenu() {
     console.log('\n');
     console.log('************************ Menu ************************');

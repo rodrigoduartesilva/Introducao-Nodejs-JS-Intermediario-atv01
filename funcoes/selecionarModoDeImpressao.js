@@ -2,6 +2,7 @@ const informarDadosDoUsuario = require("./informarDadosDoUsuario.js");
 const exibirMenu = require("./exibirMenu.js");
 const prompt = require('prompt-sync')();
 
+// Funcao chamada para que o usuário possa selecionar o modo de impressao dos dados
 function selecionarModoDeImpressao() {
     let opcao;
 
